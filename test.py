@@ -5,7 +5,7 @@ f = open('dump.txt', 'wb')
 str = pickle.dumps(dic1)
 print (str)
 
-f = open('dump.txt', 'wb');
+ open('dump.txt', 'wb');
 # 将内容序列化写入到file文件中
 pickle.dump(dic1, f);
 pickle.dump(dic2, f);
